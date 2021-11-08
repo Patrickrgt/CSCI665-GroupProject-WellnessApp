@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "wellness:build:production",
+            "firebaseProject": "wellnessapp-70b5c",
+            "firebaseHostingSite": "wellnessapp-70b5c"
+          }
         }
       }
     }
