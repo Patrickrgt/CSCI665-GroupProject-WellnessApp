@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
+## Setup
+
+Run `npm i` to install any additional libraries on the system.
+
+## Components
+
+`dashboardcomponent.html` is the front-end of the dashboard application, which includes the search bar with the like system implementation.
+`dashboardcomponent.ts` contains all the functionality of the dashboard which includes and like and dislike system and event handling for showing the likes tab.
+
+`mealplancomponent.html` is the front-end for friends list, random recipe inspiration, meal-plan generation, and friend recipe recommendations.
+`mealplancomponent.ts` contains all the functionality of the meal plan which includes fetching user friends, fetching recipe recommendations, generating meal plans, adding friend functionality, etc.
+
+`authguard.ts` contains the functionality of the login system which includes sign-in, sign-up, resend the verification email, logout, set user, and get user.
+components `signup`, `signin`, and `verify` email is respective to components in the login system.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
